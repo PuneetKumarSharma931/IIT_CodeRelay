@@ -1,0 +1,73 @@
+html {
+    width:auto;
+    height: 100%;
+}
+
+#popup {
+    position: absolute;
+    width: 15%;
+    top : -20rem;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    transition:all ease-in-out 0.3s;
+    padding:1rem;
+    border-radius: 10%;
+}
+
+.newdiv {
+    width:100%;
+    margin:auto;
+    display: grid;
+    justify-items: center;
+}
+
+.ip {
+    margin-top: 10px;
+    width: 97%;
+    justify-content: center;
+    display: grid;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.register {
+    text-align: center;
+}
+
+.register > p {
+    color: white;    
+}
+
+.register > p:hover {
+    cursor: pointer;
+}
+
+#popupback {
+    width: 15%;
+    top : -20rem;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    transition:all ease-in-out 0.3s;
+    padding:1rem;
+    border-radius: 10%;
+    position:absolute;
+    visibility: hidden;
+}
+
+.newdivback {
+    width:100%;
+    margin:auto;
+    display: grid;
+    justify-items: center;
+}
+
+main {
+    position: relative;
+    transition: all 0.5s ease-out;
+    transform-style: preserve-3d;
+}
+
